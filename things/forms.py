@@ -1,5 +1,5 @@
 """Forms of the project."""
-from .models import Thing
+from things.models import Thing
 from django import forms
 
 
