@@ -3,7 +3,7 @@ from things.models import Thing
 from django import forms
 
 
-class Form(forms.ModelForm):
+class ThingForm(forms.ModelForm):
 
     class Meta:
         model = Thing
